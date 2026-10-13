@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070719">
+  <meta name="description" content="Niranjan Jirage's portfolio — Python Full Stack Developer skilled in Django, React, SQL and web development.">
+
+  <title>Niranjan Jirage | Software Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <div class="background-glow"></div>
+
+  
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Port<span>folio</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+              aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Training</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  
+    <section class="hero container" id="home">
+      <div class="hero-content" data-aos="fade-right">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Open to Entry-Level Opportunities
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Niranjan <span class="gradient-text">Jirage</span></h1>
+
+        <h2 class="hero-role">
+          Aspiring <span id="typed"></span><span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          Computer Science Engineering graduate with practical Python Full
+          Stack training, building useful web applications with Django,
+          REST APIs, SQL, React.js, and modern web technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore Projects <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Contact Me <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="social-links">
+          
+          <a href="https://github.com/niranjanJ45"
+             target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/niranjan-jirage/"
+             target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://leetcode.com/u/niranjanjirage/"
+             target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+            <i class="fa-solid fa-code"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual profile-visual" data-aos="fade-left">
+        <div class="profile-glow"></div>
+        <img
+          class="profile-image"
+          src="profile.jpg"
+          alt="Portrait of Niranjan Jirage"
+        >
+        <div class="visual-glow"></div>
+        <div class="code-window">
+          <div class="window-header">
+            <div class="window-dots"><span></span><span></span><span></span></div>
+            <span>developer.py</span>
+            <i class="fa-solid fa-code"></i>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">class</span> Developer:</p>
+            <p class="indent"><span class="code-blue">name</span> = <span class="code-green">"Niranjan"</span></p>
+            <p class="indent"><span class="code-blue">role</span> = <span class="code-green">"Software Developer"</span></p>
+            <p class="indent"><span class="code-blue">skills</span> = [</p>
+            <p class="indent2"><span class="code-green">"Python", "Django",</span></p>
+            <p class="indent2"><span class="code-green">"React", "SQL"</span></p>
+            <p class="indent">]</p>
+            <p class="indent"><span class="code-purple">def</span> <span class="code-yellow">build</span>(self):</p>
+            <p class="indent2"><span class="code-purple">return</span> <span class="code-green">"Ideas into apps"</span></p>
+            <p class="code-comment"># Always learning. Always building.</p>
+          </div>
+
+          <div class="code-footer">
+            <span><i class="fa-solid fa-circle-check"></i> Ready to build</span>
+            <span>Python · Web</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section container" id="about">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="section-label">GET TO KNOW ME</span>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little about my background and what I enjoy building.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-card" data-aos="fade-up">
+          <div class="card-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm a Computer Science Engineering graduate with an 8.5 CGPA,
+            trained in Python Full Stack Development. Skilled in Python,
+            Django, REST APIs, SQL, and React.js, I enjoy building web
+            applications and solving problems.
+          </p>
+          <p>
+            Passionate about learning Generative AI, LLMs, and RAG, I'm
+            seeking entry-level software development opportunities to learn,
+            contribute, and grow.
+          </p>
+        </div>
+
+        <div class="about-highlights" data-aos="fade-up" data-aos-delay="100">
+          <div class="highlight-card glass-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <h3>Computer Science Engineering</h3>
+              <p>Graduate · CGPA 8.5/10</p>
+            </div>
+          </div>
+          <div class="highlight-card glass-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div>
+              <h3>Full Stack Development</h3>
+              <p>Python · Django · React.js</p>
+            </div>
+          </div>
+          <div class="highlight-card glass-card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <div>
+              <h3>Continuous Learning</h3>
+              <p>Problem-solving and new technologies</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="section container" id="experience">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="section-label">MY BACKGROUND</span>
+        <h2>Training & <span class="gradient-text">Education</span></h2>
+        <p>The foundation behind my technical skills.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item glass-card" data-aos="fade-up">
+          <div class="timeline-marker"><i class="fa-solid fa-code"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2026 – Present</span>
+            <h3>Python Full Stack Trainee</h3>
+            <h4>Dhee Coding Lab · Bangalore</h4>
+            <p>
+              Building hands-on full-stack projects across the development
+              lifecycle, from database design to front-end implementation.
+            </p>
+            <div class="mini-tags">
+              <span>Python</span><span>Django</span><span>REST API</span><span>React.js</span><span>SQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item glass-card" data-aos="fade-up">
+          <div class="timeline-marker"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 – 2026</span>
+            <h3>B.E. Computer Science &amp; Engineering</h3>
+            <h4>VSM's Institute of Technology, Nipani</h4>
+            <p>
+              Completed engineering studies with an 8.5 CGPA and developed
+              an interest in programming, web development and software engineering.
+            </p>
+            <div class="mini-tags">
+              <span>CGPA: 8.5/10</span><span>2022 – 2026</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item glass-card" data-aos="fade-up">
+          <div class="timeline-marker"><i class="fa-solid fa-school"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020 – 2022</span>
+            <h3>Higher Secondary Education (12th)</h3>
+            <h4>K.L.E. Basavaprabhu Kore College, Chikodi</h4>
+            <div class="mini-tags"><span>75.16%</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item glass-card" data-aos="fade-up">
+          <div class="timeline-marker"><i class="fa-solid fa-school"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2019 – 2020</span>
+            <h3>Secondary School Education (10th)</h3>
+            <h4>C K High School, Examba</h4>
+            <div class="mini-tags"><span>74.24%</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  
+    <section class="section container" id="skills">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="section-label">WHAT I WORK WITH</span>
+        <h2>Technical <span class="gradient-text">Skills</span></h2>
+        <p>Technologies I've studied and applied in projects.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass-card" data-aos="fade-up">
+          <div class="skill-card-icon"><i class="fa-brands fa-python"></i></div>
+          <h3>Programming</h3>
+          <div class="skill-tags"><span>Python</span><span>JavaScript</span></div>
+        </article>
+
+        <article class="skill-card glass-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="skill-card-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend</h3>
+          <div class="skill-tags"><span>Django</span><span>Django ORM</span><span>DRF</span><span>REST APIs</span></div>
+        </article>
+
+        <article class="skill-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-card-icon"><i class="fa-brands fa-react"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-tags"><span>React.js</span><span>HTML5</span><span>CSS3</span></div>
+        </article>
+
+        <article class="skill-card glass-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="skill-card-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>Database & Tools</h3>
+          <div class="skill-tags"><span>Oracle</span><span>MySQL</span><span>SQLite</span><span>Git</span><span>GitHub</span></div>
+        </article>
+
+        <article class="skill-card glass-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-card-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Core Concepts</h3>
+          <div class="skill-tags"><span>OOP</span><span>DBMS</span><span>DSA</span><span>Problem Solving</span></div>
+        </article>
+      </div>
+    </section>
+
+   
+    <section class="section container" id="projects">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="section-label">WHAT I'VE BUILT</span>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>Practical applications built to strengthen my development skills.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card" data-aos="fade-up">
+          <div class="project-visual resume-visual">
+            <img class="project-cover" src="assets/resume-builder-cover.png" alt="AI-powered resume builder illustration">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>AI · RESUME BUILDER</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">WEB APPLICATION</span>
+            <h3>AI-Powered Resume Builder</h3>
+            <p>
+              An AI-powered resume builder that generates ATS-friendly resumes
+              with prompt-based content suggestions, customizable templates,
+              live preview, and one-click PDF export.
+            </p>
+            <div class="mini-tags">
+              <span>Python</span><span>SQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/niranjanJ45"
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub Profile
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-visual travel-visual">
+            <img class="project-cover" src="assets/trip-planner-cover.png" alt="Trip planner illustration">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>TRAVEL · PLAN · EXPLORE</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">FULL STACK WEBSITE</span>
+            <h3>Trip Planner Website</h3>
+            <p>
+              A full-stack travel booking platform where users explore
+              destinations, compare packages, manage accounts, and complete
+              an end-to-end trip booking workflow.
+            </p>
+            <div class="mini-tags">
+              <span>Python</span><span>Django</span><span>SQLite</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/niranjanJ45/Trip_planner-Website"
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card" data-aos="fade-up">
+          <div class="project-visual">
+            <img class="project-cover" src="assets/portfolio-cover.png" alt="Personal portfolio illustration">
+            <i class="fa-solid fa-user"></i>
+            <span>PERSONAL · PORTFOLIO</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">PORTFOLIO WEBSITE</span>
+            <h3>My Portfolio</h3>
+            <p>
+              A personal portfolio website that presents my skills, education,
+              projects, achievements, certifications, and contact information.
+            </p>
+            <div class="mini-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/niranjanJ45/My-Portfoliou"
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-visual travel-visual">
+            <img class="project-cover" src="assets/currency-cover.png" alt="Currency converter illustration">
+            <i class="fa-solid fa-coins"></i>
+            <span>LIVE · CURRENCY · CONVERSION</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">WEB APPLICATION</span>
+            <h3>Currency Convertor</h3>
+            <p>
+              A JavaScript-based currency conversion application designed to
+              convert values between currencies through a simple interface.
+            </p>
+            <div class="mini-tags">
+              <span>JavaScript</span><span>HTML</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/niranjanJ45/Currency-Convertor"
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card" data-aos="fade-up">
+          <div class="project-visual">
+            <img class="project-cover" src="assets/tic-tac-toe-cover.png" alt="Tic-Tac-Toe game illustration">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>PLAY · THINK · WIN</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">WEB GAME</span>
+            <h3>Tic-Tac-Toe</h3>
+            <p>
+              A responsive two-player Tic-Tac-Toe game featuring player
+              selection, turn indicators, win or draw detection, and restart.
+            </p>
+            <div class="mini-tags">
+              <span>JavaScript</span><span>HTML</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/niranjanJ45/Tic-Tac-Toe"
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+    <section class="section container" id="credentials">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="section-label">CONTINUOUS LEARNING</span>
+        <h2>Achievements &amp; <span class="gradient-text">Certifications</span></h2>
+        <p>Learning milestones and regular problem-solving practice.</p>
+      </div>
+
+      <div class="credentials-grid">
+        <article class="credential-card glass-card" data-aos="fade-up">
+          <div class="credential-icon"><i class="fa-solid fa-trophy"></i></div>
+          <h3>Achievements</h3>
+          <ul class="credential-list">
+            <li>Participated in coding competitions and hackathons.</li>
+            <li>Practice data-structures and algorithm problems regularly on LeetCode.</li>
+          </ul>
+        </article>
+
+        <article class="credential-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="credential-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Certifications</h3>
+          <ul class="credential-list">
+            <li>Oracle Foundations Associate Certification — Oracle University</li>
+            <li>Python Certificate of Accomplishment — HackerRank</li>
+            <li>SQL Certificate of Accomplishment — HackerRank</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+  
+    <section class="section container" id="contact">
+      <div class="section-heading" data-aos="fade-up">
+        <span class="section-label">LET'S CONNECT</span>
+        <h2>Get In <span class="gradient-text">Touch</span></h2>
+        <p>Looking for an entry-level opportunity? Let's connect.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info glass-card" data-aos="fade-right">
+          <h3>Let's work together</h3>
+          <p>
+            I'm open to entry-level software development and IT opportunities.
+            Feel free to reach out about suitable roles or collaborations.
+          </p>
+
+          
+          <a class="contact-item" href="mailto:jirageniranjan21@gmail.com">
+            <span class="contact-icon"><i class="fa-regular fa-envelope"></i></span>
+            <span><small>Email</small><strong>jirageniranjan21@gmail.com</strong></span>
+          </a>
+
+          <a class="contact-item" href="tel:+917022015405">
+            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+            <span><small>Phone</small><strong>+91 70220 15405</strong></span>
+          </a>
+
+          <a class="contact-item" href="https://www.linkedin.com/in/niranjan-jirage/"
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+            <span><small>LinkedIn</small><strong>Connect with me</strong></span>
+          </a>
+
+          <a class="contact-item" href="https://github.com/niranjanJ45"
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+            <span><small>GitHub</small><strong>Explore my projects</strong></span>
+          </a>
+
+          <a class="contact-item" href="https://leetcode.com/u/niranjanjirage/"
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">
+              <img class="leetcode-icon" src="https://cdn.simpleicons.org/leetcode/AE8CFF" alt="">
+            </span>
+            <span><small>LeetCode</small><strong>Coding practice</strong></span>
+          </a>
+
+          <a class="contact-item" href="https://www.instagram.com/_niranjan.nj/"
+             target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><i class="fa-brands fa-instagram"></i></span>
+            <span><small>Instagram</small><strong>Follow me on Instagram</strong></span>
+          </a>
+        </div>
+
+        <form class="contact-form glass-card" id="contactForm" data-aos="fade-left">
+          <h3>Send a message</h3>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"
+                    placeholder="How can I help you?" required></textarea>
+
+          <button class="btn btn-primary" type="submit">
+            Send Message <i class="fa-regular fa-paper-plane"></i>
+          </button>
+          <p class="form-note">Your email app will open to send the message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">N<span>J</span>.</a>
+    <p>Designed & built by Niranjan Jirage</p>
+    <a href="#home" class="back-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
